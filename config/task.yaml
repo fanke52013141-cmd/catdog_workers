@@ -63,6 +63,11 @@ content_strategy:
 production:
   visual_style: "3D 毛绒动画风"
   visual_style_notes: "软软的毛绒玩具质感，保留打工人的疲惫、低电量和一点丧感，不做精致女神化。"
+  toolchain:
+    image_generation: "Codex imagegen"
+    video_generation: "即梦"
+    voice_generation: "MiniMax AI 配音"
+    editing: "剪映"
   target_duration_seconds:
     min: 15
     recommended_max: 45
@@ -74,12 +79,25 @@ production:
     escalation_seconds: "16-40"
     tag_seconds: "41-60"
   default_aspect_ratio: "9:16"
-  default_publish_frequency: "待确认"
+  default_publish_frequency: "首月每两天 1 条视频"
+  first_month_focus:
+    - "呼噜噜看热点"
+    - "呼噜噜与啊呜呜"
   generation_tools:
-    image: "待确认"
-    video: "待确认"
-    voice: "待确认"
-    editing: "待确认"
+    image: "Codex imagegen"
+    video: "即梦"
+    voice: "MiniMax"
+    editing: "剪映"
+  hot_topic_sources:
+    provider: "DailyHotApi"
+    status: "待决策是否自部署"
+    recommended_routes:
+      - "weibo"
+      - "douyin"
+      - "toutiao"
+      - "zhihu"
+      - "bilibili"
+      - "baidu"
 
 monetization:
   phase_1: "角色记忆与粉丝积累"
@@ -88,7 +106,8 @@ monetization:
   phase_4: "语音包、闹钟、虚拟陪伴、账号矩阵"
 
 unknowns:
-  - "AI 生成工具链待确认"
-  - "最终使用真人配音还是 AI 配音待确认"
-  - "更新频率和首月产能待确认"
+  - "角色三视图制作顺序待确认"
+  - "封面海报风格具体规范待确认"
+  - "热点免费接口/聚合源待确认"
+  - "啊呜呜首批出场比例待确认"
   - "商业合作底线和禁接品类待确认"

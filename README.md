@@ -34,6 +34,12 @@
 10. `docs/pending-confirmations.md`
    - 后续需要逐项确认的问题，适合继续沟通时使用。
 
+11. `docs/cover-poster-style-guide.md`
+   - 封面海报风格建议：栏目角标、标题、角色状态图和色彩规则。
+
+12. `docs/hot-topic-source-research.md`
+   - 免费/开源热榜接口调研，当前推荐 DailyHotApi 自部署。
+
 ## 常用模板
 
 - `templates/asset-brief-template.md`：制作三视图、表情、动作、场景时使用。
