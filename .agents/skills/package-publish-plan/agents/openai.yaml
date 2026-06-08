@@ -1,0 +1,5 @@
+interface:
+  display_name: "Package Publish Plan"
+  short_description: "生成标题、封面、话题和评论引导发布包"
+  default_prompt: "Use $package-publish-plan to create a local publish package for 打工喵呼噜噜."
+

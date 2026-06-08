@@ -1,0 +1,20 @@
+# Runtime settings for this local project.
+# Update when a specific video generation stack is chosen.
+
+[project]
+name = "hululu-awuwu-ai-video-project"
+language = "zh-CN"
+platform = "douyin"
+status = "draft"
+
+[outputs]
+default_dir = "outputs"
+script_format = "markdown"
+shot_list_format = "markdown"
+prompt_format = "markdown"
+
+[checks]
+require_character_consistency = true
+require_reusable_asset_tagging = true
+require_missing_items_log = true
+

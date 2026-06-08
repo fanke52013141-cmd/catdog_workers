@@ -1,0 +1,5 @@
+interface:
+  display_name: "Produce Short Video"
+  short_description: "编排单条呼噜噜短视频从选题到发布包的完整流程"
+  default_prompt: "Use $produce-short-video to produce a complete local short-video package for 打工喵呼噜噜."
+

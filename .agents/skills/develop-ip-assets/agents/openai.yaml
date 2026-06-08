@@ -1,0 +1,5 @@
+interface:
+  display_name: "Develop IP Assets"
+  short_description: "规划和补齐呼噜噜/啊呜呜可复用 IP 资产"
+  default_prompt: "Use $develop-ip-assets to create an asset brief for 打工喵呼噜噜."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Select Topic Angle"
+  short_description: "把热点或灵感转成可拍摄的呼噜噜选题 brief"
+  default_prompt: "Use $select-topic-angle to turn a topic into a video brief for 打工喵呼噜噜."
+

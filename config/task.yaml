@@ -1,0 +1,94 @@
+project:
+  name: "打工喵呼噜噜 AI 视频项目"
+  platform: "抖音"
+  account_type: "AI 虚拟 IP 短视频账号"
+  current_stage: "资产库与内容生产框架搭建"
+  account_display_name: "打工喵呼噜噜"
+  account_bio: "一只电量过低但还没关机的打工喵。和啊呜呜一起，上班吐槽，下班续命，在丧丧的日子里慢慢攒一点美好生活。"
+
+ip:
+  main:
+    display_name: "呼噜噜"
+    legal_or_archive_name: "胡露露"
+    role: "主 IP"
+    archetype: "猫系低电量打工人"
+    energy_indicator: "发卡电量"
+    voice_profile: "低电量软糯微哑少女音，语速偏慢，像没睡醒但努力在线"
+    core_props:
+      - "咖啡杯"
+      - "发卡"
+      - "小老虎工牌"
+    core_line: "电量过低，但还没关机。"
+  secondary:
+    display_name: "啊呜呜"
+    nickname: "阿五"
+    role: "副 IP / 好朋友 / 对手戏搭子"
+    archetype: "狗系吃货碎嘴打工人"
+    appearance_rule: "不是每条视频都出现；有朋友分享、下班续命、对手戏、互相吐槽、情绪托举时出现。呼噜噜也需要保留一个人默默承受的独处内容。"
+    energy_indicator: "狗狗尾巴"
+    voice_profile: "元气碎嘴、略带含混的吃货少女音，语速偏快，饿了时突然变平变短"
+    core_props:
+      - "奶茶"
+      - "零食袋"
+      - "狗狗连体装"
+    core_line: "吃饱了，就能再撑一会儿。"
+
+content_strategy:
+  positioning: "用 AI 制作的虚拟打工人日常，不以 AI 炫技为账号核心卖点"
+  tone:
+    - "可爱"
+    - "真实"
+    - "疲惫"
+    - "好笑"
+    - "治愈"
+  target_audience:
+    - "22-35 岁上班族"
+    - "有内耗、疲惫、加班、下班续命共鸣的人"
+    - "喜欢虚拟 IP、表情包、轻剧情短视频的人"
+  initial_columns:
+    - "呼噜噜看热点"
+    - "呼噜噜的怪早晨"
+    - "打工喵生存报告"
+    - "呼噜噜与啊呜呜"
+  column_strategy:
+    priority: "热点优先，热点是流量入口；打工人生活是长期人设底盘；魔幻早晨是 AI 视觉差异化；啊呜呜负责朋友关系和对手戏。"
+    hot_topic_principle: "不是呼噜噜去蹭热点，而是热点经过呼噜噜，变成打工人的情绪表达。优先选择打工人关心、能转译成低电量情绪、且有 AI 视觉化空间的热点。热点表达形式不固化，根据热点选择最合适的表达。"
+    recommended_ratio:
+      hululu_hot_take: "40%"
+      strange_morning: "25%"
+      worker_life: "20%"
+      hululu_awuwu: "15%"
+    principle: "热点可以进入所有栏目，但必须被翻译成打工人情绪和呼噜噜的人设反应，不能为了蹭热点牺牲 IP。"
+
+production:
+  visual_style: "3D 毛绒动画风"
+  visual_style_notes: "软软的毛绒玩具质感，保留打工人的疲惫、低电量和一点丧感，不做精致女神化。"
+  target_duration_seconds:
+    min: 15
+    recommended_max: 45
+    hard_max: 60
+  duration_principle: "每条视频控制在 1 分钟以内；优先保证完播率和信息密度，普通内容建议 15-45 秒，热点或魔幻特效内容也不超过 60 秒。"
+  video_structure:
+    hook_seconds: "0-3"
+    conflict_seconds: "4-15"
+    escalation_seconds: "16-40"
+    tag_seconds: "41-60"
+  default_aspect_ratio: "9:16"
+  default_publish_frequency: "待确认"
+  generation_tools:
+    image: "待确认"
+    video: "待确认"
+    voice: "待确认"
+    editing: "待确认"
+
+monetization:
+  phase_1: "角色记忆与粉丝积累"
+  phase_2: "咖啡、奶茶、零食、外卖、办公用品、本地生活轻合作"
+  phase_3: "表情包、贴纸、手机壳、马克杯、亚克力、毛绒玩具"
+  phase_4: "语音包、闹钟、虚拟陪伴、账号矩阵"
+
+unknowns:
+  - "AI 生成工具链待确认"
+  - "最终使用真人配音还是 AI 配音待确认"
+  - "更新频率和首月产能待确认"
+  - "商业合作底线和禁接品类待确认"

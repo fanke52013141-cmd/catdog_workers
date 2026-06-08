@@ -1,0 +1,5 @@
+interface:
+  display_name: "Write Short Video Script"
+  short_description: "创作 1 分钟以内的呼噜噜短视频脚本"
+  default_prompt: "Use $write-short-video-script to write a short video script for 打工喵呼噜噜."
+

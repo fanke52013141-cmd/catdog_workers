@@ -1,0 +1,5 @@
+interface:
+  display_name: "Analyze Publish Performance"
+  short_description: "复盘发布后数据、评论和用户共鸣"
+  default_prompt: "Use $analyze-publish-performance to review metrics and comments for 打工喵呼噜噜."
+

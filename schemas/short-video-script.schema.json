@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ShortVideoScript",
+  "type": "object",
+  "required": ["title", "column", "duration_seconds", "characters", "scene", "hook", "beats"],
+  "properties": {
+    "title": { "type": "string" },
+    "column": { "type": "string" },
+    "duration_seconds": { "type": "integer", "minimum": 10, "maximum": 60 },
+    "characters": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "scene": { "type": "string" },
+    "core_conflict": { "type": "string" },
+    "hook": { "type": "string" },
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["time_range", "visual", "dialogue_or_caption"],
+        "properties": {
+          "time_range": { "type": "string" },
+          "visual": { "type": "string" },
+          "dialogue_or_caption": { "type": "string" },
+          "sound": { "type": "string" },
+          "character_state": { "type": "string" }
+        }
+      }
+    },
+    "ending_memory_point": { "type": "string" },
+    "asset_refs": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
+

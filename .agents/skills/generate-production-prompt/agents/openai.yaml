@@ -1,0 +1,5 @@
+interface:
+  display_name: "Generate Production Prompt"
+  short_description: "把脚本拆成分镜并生成 AI 生产提示词"
+  default_prompt: "Use $generate-production-prompt to create shot lists and AI prompts for 打工喵呼噜噜."
+

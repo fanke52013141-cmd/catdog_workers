@@ -1,0 +1,5 @@
+interface:
+  display_name: "Collect Hot Topics"
+  short_description: "收集并初筛适合打工喵呼噜噜的热点池"
+  default_prompt: "Use $collect-hot-topics to build a hot topic pool for 打工喵呼噜噜."
+

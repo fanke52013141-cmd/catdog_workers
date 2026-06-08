@@ -1,0 +1,5 @@
+interface:
+  display_name: "Plan Content Calendar"
+  short_description: "规划四大栏目和热点优先的内容排期"
+  default_prompt: "Use $plan-content-calendar to plan content for 打工喵呼噜噜."
+

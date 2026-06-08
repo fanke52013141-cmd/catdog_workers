@@ -1,0 +1,5 @@
+interface:
+  display_name: "Review Video Output"
+  short_description: "审核成片或素材的人设、节奏、复用价值和风险"
+  default_prompt: "Use $review-video-output to review a video output for 打工喵呼噜噜."
+
