@@ -13,6 +13,6 @@
 
 # Local scratch/cache
 tmp/
+services/dailyhot-api/logs/
 .DS_Store
 Thumbs.db
-

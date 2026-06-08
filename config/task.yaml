@@ -90,7 +90,8 @@ production:
     editing: "剪映"
   hot_topic_sources:
     provider: "DailyHotApi"
-    status: "待决策是否自部署"
+    status: "本地 Docker Compose 配置已加入仓库，待安装 Docker 后启动测试"
+    base_url: "http://localhost:6688"
     recommended_routes:
       - "weibo"
       - "douyin"

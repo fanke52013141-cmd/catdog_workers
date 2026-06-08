@@ -64,12 +64,24 @@ https://api-hot.imsyy.top/toutiao
 - Node.js 本地服务。
 - Vercel/服务器部署。
 
+当前仓库已加入 Docker Compose 配置：
+
+```text
+services/dailyhot-api/docker-compose.yml
+```
+
+默认本地接口地址：
+
+```text
+http://localhost:6688
+```
+
 部署后在 `config/task.yaml` 中增加：
 
 ```yaml
 hot_topic_sources:
   provider: "DailyHotApi"
-  base_url: "https://your-domain.example"
+  base_url: "http://localhost:6688"
   routes:
     - "weibo"
     - "douyin"
@@ -107,4 +119,3 @@ hot_topic_sources:
 - 部署在哪里：本地、Vercel、服务器。
 - 首批拉取哪些 routes。
 - 是否需要后续写自动拉取脚本。
-

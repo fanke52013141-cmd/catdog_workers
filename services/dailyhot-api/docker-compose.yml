@@ -1,0 +1,12 @@
+services:
+  dailyhot-api:
+    image: imsyy/dailyhot-api:latest
+    container_name: catdog-workers-dailyhot-api
+    restart: unless-stopped
+    ports:
+      - "6688:6688"
+    environment:
+      - PORT=6688
+    volumes:
+      - ./logs:/app/logs
+

@@ -40,6 +40,9 @@
 12. `docs/hot-topic-source-research.md`
    - 免费/开源热榜接口调研，当前推荐 DailyHotApi 自部署。
 
+13. `docs/dailyhot-api-deployment.md`
+   - DailyHotApi 部署与接入说明，包含换电脑后的恢复方式。
+
 ## 常用模板
 
 - `templates/asset-brief-template.md`：制作三视图、表情、动作、场景时使用。

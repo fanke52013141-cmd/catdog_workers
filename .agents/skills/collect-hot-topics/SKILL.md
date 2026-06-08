@@ -31,6 +31,7 @@ raw_topics:
 推荐数据源：
 
 - 优先参考 `docs/hot-topic-source-research.md`。
+- 本仓库提供 `services/dailyhot-api/docker-compose.yml`，安装 Docker 后可本地启动。
 - 当前推荐方案是自部署 `imsyy/DailyHotApi`，覆盖微博、抖音、今日头条、知乎、B站、百度等热榜。
 - 公开示例接口只能作为临时备选，不作为稳定生产依赖。
 
